@@ -1,7 +1,9 @@
 --------------------
 # Project Unicorn
 ### Repository Overview
-This project examines the low profitability of a fictitious company’s Central Region. By analyzing profit ratios across regions, states, and product categories, it identifies underperforming areas and recommends strategies to enhance profitability. Developed as a practical exercise in data analysis, the project utilizes PostgresSQL, spreadsheets, and Tableau.
+
+This project investigates the low profitability of a fictitious company’s Central Region. By analyzing profit ratios across regions, states, and product categories, it identifies underperforming areas and proposes strategies to enhance profitability. Framed within the Data Analytics program at Masterschool, this project represents the first practical assignment of the bootcamp. Developed as a hands-on exercise, it leverages PostgresSQL, spreadsheets, and Tableau to perform the analysis.
+
 In this repository, you will find:
 * PDF documentation associated with the project
 * The Colab notebook containing data queries
@@ -20,7 +22,7 @@ This project was conceived as a practical exercise to explore data analysis tool
 
 * _Tableau_: Selected for creating interactive dashboards to visualize key metrics and share insights in an accessible format.
 
-### Methodology
+#### Methodology
 The process follows a hierarchical approach to pinpoint the root causes of profitability issues. By drilling down from region to state, then to category and product level, it ensures that recommendations are specific and actionable.
 
 * _Data Exploration_
