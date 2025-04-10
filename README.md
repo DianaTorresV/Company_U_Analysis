@@ -7,11 +7,11 @@
 ### Project Overview
 This project investigates the low profitability of a fictitious company’s Central Region. By analyzing profit ratios across regions, states, and product categories, the project identifies underperforming areas and proposes strategies to improve profitability. It was developed as a practical exercise in data analysis using PostgresSQL, spreadsheets, and Tableau.
 
-### Motivation and Context
+#### Motivation and Context
 
 This project was conceived as a practical exercise to explore data analysis tools within the context of a fictitious company. Its primary goal was to conduct a rapid and straightforward dataset analysis to identify potential business improvements, even without extensive knowledge of the company’s operations. By focusing on profitability issues in a specific region, the project uncovers actionable insights and proposes targeted recommendations to address the root causes of low profitability in the Central Region. Serving as an introductory framework, this project provides a replicable approach for businesses or analysts to identify and resolve profitability challenges effectively.
 
-### Technologies Used
+#### Technologies Used
 
 * _PostgresSQL_: Chosen for querying and analyzing large datasets due to its efficiency and flexibility in handling relational data.
 
@@ -54,7 +54,7 @@ _Strategy Development_
 
 * _Impact of Discounting_: Heavy discounting significantly reduced profitability, particularly in certain sub-categories.
 
-#### Recommendations
+### Recommendations
 * _Discontinue unprofitable products_: In the Office Supplies category, discontinue the 52 products that have a persistently negative profit ratio, even when no discounts are applied, and that have sales of less than $2,000 over the analysis period. These products are strong candidates for discontinuation because they show limited market demand.
 
   Apply the same product-level analysis to the Furniture category to identify all products with low sales and persistently negative profit ratios, even when discounts are removed. These should also be considered for discontinuation.
@@ -65,7 +65,11 @@ _Strategy Development_
 
 * _Continuous monitoring_: Implementation of dashboards to continuously track profit ratios, sales performance and the impact of rebates at product level. This will enable the company to proactively identify and address underperforming products before they have an impact on the overall profitability of the business.
   
-### Challenges and Limitations
+### Conclusion
+
+In order to restore profitability in the Central Zone, it is essential to eliminate deep discounting and discontinue underperforming products. By targeting those sub-categories and products with persistently negative profit margins and low sales volumes, the company will be able to reduce its losses and improve its performance. Optimisation of the discount strategy, particularly in furniture and office supplies, will be key to the return to profitability. To ensure that future profitability challenges can be quickly identified and addressed, a data-driven continuous monitoring system should be implemented.
+
+#### Challenges and Limitations
 
 * _Time Constraints_: Limited to one week of analysis, restricting deeper dives into some aspects of the data.
 
@@ -73,9 +77,6 @@ _Strategy Development_
 
 * _Complexity of Discount Analysis_: Challenges in isolating the exact impact of discounting practices due to overlapping factors.
 
-### Conclusion
-
-In order to restore profitability in the Central Zone, it is essential to eliminate deep discounting and discontinue underperforming products. By targeting those sub-categories and products with persistently negative profit margins and low sales volumes, the company will be able to reduce its losses and improve its performance. Optimisation of the discount strategy, particularly in furniture and office supplies, will be key to the return to profitability. To ensure that future profitability challenges can be quickly identified and addressed, a data-driven continuous monitoring system should be implemented.
 
 #### References
 
